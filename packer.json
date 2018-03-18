@@ -13,7 +13,7 @@
     "ssh_password": "vagrant",
     "ssh_username": "vagrant",
     "update": "false",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "virtualbox_guest_os_type": "Ubuntu_64",
     "vmware_guest_os_type": "ubuntu-64",
 	"vm_name": "ubuntu-desktop-dev",
@@ -115,6 +115,7 @@
         "script/vim.sh",
         "script/zsh.sh",
         "script/pycharm.sh",
+        "script/purge.sh",
         "script/cleanup.sh"
       ],
       "type": "shell"
